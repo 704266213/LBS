@@ -1,4 +1,4 @@
-package com.lbs.amap;
+package com.lbs.amap.route;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -15,6 +15,7 @@ import com.amap.api.services.core.LatLonPoint;
 import com.amap.api.services.route.DrivePath;
 import com.amap.api.services.route.DriveStep;
 import com.amap.api.services.route.TMC;
+import com.lbs.amap.R;
 import com.lbs.amap.utils.AMapUtil;
 
 import java.util.ArrayList;
@@ -24,7 +25,7 @@ import java.util.List;
 /**
  * 导航路线图层类。
  */
-public class DrivingRouteOverLay extends RouteOverlay{
+public class DrivingRouteOverLay extends RouteOverlay {
 
 	private DrivePath drivePath;
     private List<LatLonPoint> throughPointList;

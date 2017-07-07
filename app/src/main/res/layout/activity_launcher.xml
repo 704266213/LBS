@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.lbs.amap.LauncherActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onMapClick"
+        android:text="高德地图定位"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="OnPoiSearchClick"
+        android:text="高德导航POI搜索"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="OnNavigationClick"
+        android:text="高德导航"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

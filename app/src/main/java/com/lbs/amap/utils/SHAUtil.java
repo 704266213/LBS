@@ -1,4 +1,4 @@
-package com.lbs.amap;
+package com.lbs.amap.utils;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;

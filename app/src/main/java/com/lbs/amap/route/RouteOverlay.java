@@ -1,4 +1,4 @@
-package com.lbs.amap;
+package com.lbs.amap.route;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,6 +14,7 @@ import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 import com.amap.api.maps.model.Polyline;
 import com.amap.api.maps.model.PolylineOptions;
+import com.lbs.amap.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.lbs.amap;
+package com.lbs.amap.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -34,8 +34,11 @@ import com.amap.api.services.route.DriveRouteResult;
 import com.amap.api.services.route.RideRouteResult;
 import com.amap.api.services.route.RouteSearch;
 import com.amap.api.services.route.WalkRouteResult;
+import com.lbs.amap.R;
 import com.lbs.amap.marker.LocalMarkerInfoWindowAdapter;
 import com.lbs.amap.popwindow.PoiSearchPopWindow;
+import com.lbs.amap.route.DrivingRouteOverLay;
+import com.lbs.amap.utils.SHAUtil;
 
 import static android.R.attr.mode;
 
